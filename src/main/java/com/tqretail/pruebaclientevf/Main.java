@@ -24,7 +24,7 @@ public class Main {
             System.out.println(msg);
         }
 
-        System.setProperty("javax.net.debug", "ssl,handshake");
+//        System.setProperty("javax.net.debug", "ssl,handshake");
         
         System.setProperty("javax.net.ssl.keyStore", "./conf/" + certificado);
         System.setProperty("javax.net.ssl.keyStoreType", "PKCS12");
